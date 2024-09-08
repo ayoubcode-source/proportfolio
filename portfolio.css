@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 2000px;
+}
+
+
+.navbarsection{
+    width: 100%;
+}
+
+#navbar{
+    width: 100%;
+    background-color: #242424;
+    padding-right: 10rem;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 1000;
+}
+
+.nav-elements{
+    height: 40px;
+
+}
+
+#navbar li a{
+    color: #c7d315;
+    margin-right:30px;
+    margin-left:30px;
+}
+
+#navbar li a:hover{
+    border-bottom: 2px solid #c7d315;
+}
+
+
+
+
+#brand-name{
+    font-size: 1.5rem;
+    
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+#homesection{
+    height: 38rem;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+#homesection h6{
+    color: rgb(199, 199, 199);
+    font-size: 12px;
+    width: 100%;
+    font-weight: 400;
+}
+#homesection h1{
+    color: #c7d315;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#homesection p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.social-icons i{
+    font-size: 40px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.social-icons a{
+    background: none;
+    color: #242424;
+    text-decoration: none;
+}
+
+.social-icons i:hover{
+    color: #c7d315;
+    scale: 1.1;
+}
+
+
+.prfl-pic{
+    width: 23rem;
+    height: 24rem;
+    object-fit: cover;
+    border-radius:15rem ;
+    box-shadow: 0px 0px 4px 1px #c7d315 ;
+    transition: 0.3s;
+}
+
+.prfl-pic:hover{
+    box-shadow: 0px 0px 40px 5px #c7d315 ;
+    scale: 1.1;
+
+}
+
+#aboutsection{
+    height: 70rem;
+    width: 100%;
+    background:linear-gradient(#343a40,#41464b);
+    padding-top: 100px;
+    
+    
+}
+
+
+
+#about-header{
+    text-align: center;
+    font-size: 4rem;
+    color: #c7d315;
+    font-weight: 500;
+}
+
+
+#card{
+    width: 50rem;
+    background: none;
+    color: white;
+    cursor: default ;
+    border-color: #c7d315;
+    transition:  0.3s ease;
+}
+
+#card:hover{
+    box-shadow: 0px 0px 5px 2px rgb(199, 211, 21 );
+}
+
+#card-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#about-row{
+    height: auto;
+    padding: 40px 0;
+    align-items: center;
+}
+#about-row1{
+    padding-top: 10px
+}
+
+#card .card-header{
+    text-align: center;
+    font-weight: 500;
+}
+
+
+ 
+
+
+
+.read-more{
+    display: none;
+}
+
+#read-more-btn{
+    color: #c7d315;
+    font-size: 13px;
+    cursor: pointer;
+}
+#br{
+    display: none;
+}
+
+#projects-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#project-cards{
+    display: flex;
+    text-align: center;
+    background:none;
+    padding-top: 20px;
+    background-color: #c7d315;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0,0.4);
+}
+
+#project-cards i{
+    font-size: 3.5rem;
+    color: #343a40;
+}
+
+#project-cards h5{
+    color: #343a40;    
+}
+
+#project-cards a{
+    background-color: #343a40;
+    color: white;
+    transition: 0.3s;
+}
+
+#project-cards a:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+.line-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #343a40;
+}
+.line-container1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #41464b;
+}
+
+
+
+.line-container1::before,
+.line-container1::after, 
+.line-container::before,
+.line-container::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #ccc; /* Style of the horizontal lines */
+    
+}
+
+
+
+
+
+
+
+
+
+
+.contactsection{
+    padding: 50px 150px;
+    background-color: #c7d315;
+    width: 100%;
+    background: linear-gradient(#41464b,#343a40);
+    display: flex;
+}
+
+.contactsection .card{
+
+    background: none;
+    padding: 20px 50px;
+    box-shadow: 1px 1px 5px 3px rgb(199, 199, 199);
+}
+
+
+.contactsection img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 2px rgb(0,0,0,0.5);
+}
+
+.contactsection p {
+    color: white;
+}
+
+.contactsection .btn{
+    background-color: white;
+    color: #343a40;
+    transition: 0.2s;
+}
+
+.contactsection .btn:hover{
+    box-shadow: 0px 0px 5px 1px rgb(199, 199, 199);
+}
+

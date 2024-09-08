@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio</title>
+</head>
+<body>
+
+
+  <div class="navbarsection">
+        <nav id="navbar" class="navbar navbar-expand-lg  " >
+            <div class="container-fluid">
+              <a id="brand-name" class="navbar-brand text-light" href="#">AYOUB ELAHDI</a>
+            
+              <div class="nav-elements">
+                <ul id="nav-items" class="navbar-nav me-auto mb-2 mb-lg-0"  >
+                  <li class="nav-item">
+                    <a id="home" class="nav-link  active" aria-current="page" href="#"  >Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="about" class="nav-link  " href="#" >About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="contact" class="nav-link" href="#" >Contact</a>
+                  </li>
+                  
+
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+    </div>
+
+
+    
+
+    <div id="homesection">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="img/technology.mp4" type="video/mp4">
+          </video>
+
+        <div id="home-row" class="row  justify-content-around">
+            <div class="col-5 ">
+                <p>Hello it's me</p>
+                <h1>AYOUB EL HADI</h1>
+                <h6>As a frontend developer, I create responsive, user-friendly
+                   websites using HTML, CSS, and JavaScript.
+                    I focus on delivering seamless user experiences
+                     and staying updated with the latest web technologies.
+
+                </h6>
+                <div class="social-icons">
+                  <a target="_blank" href="https://www.linkedin.com/in/ayoub-el-hadi-672036286/"><i  class="fa-brands fa-linkedin"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="col-4">
+              <img class="prfl-pic" src="img/IMG_9348.jpg">
+            </div>
+        </div>
+    </div>
+<!--Break line-->
+    <div class="line-container">
+  </div>
+<!--Break line-->
+    <div id="aboutsection">
+      <div>
+        <p id="about-header">About</p>
+       
+          <div id="about-row" class="row">
+                <div id="card-container">
+                      <div id="card" class="card  mb-3" >
+                        <div class="card-header">Skills</div>
+                        <div class="card-body">
+                          <p class="card-text">- HTML & CSS: Proficient in creating semantic, accessible, and responsive web layouts.<br>
+                            - JavaScript: Strong understanding of ES6+ features, with experience in building dynamic and interactive user interfaces.<br>
+                            - Frameworks & Libraries: Skilled in using React.js for building modern web applications, with knowledge of Redux for state management.<br id="br">
+                            
+                            <span class="read-more">- Version Control: Experienced with Git and GitHub for version control and collaborative development.<br>
+                              - Responsive Design: Expertise in creating mobile-first designs using CSS frameworks like Bootstrap and Flexbox/Grid.
+                              - Tools: Familiar with development tools such as VS Code, Webpack, and Chrome DevTools.</span>
+                            <span id="read-more-btn">Read more</span></p>
+                              
+                        </div>
+                      </div>
+                </div>
+          </div>
+        <div id="about-row" class="row">
+            <div id="card-container">
+                    <div id="card" class="card  mb-3" >
+                      <div class="card-header">Projects</div>
+                      <div id="projects-btn" class="card-body">
+                        <p class="card-text">
+                          <!-- make card inside the projects card-->
+                          <div id="project-cards" class="card" >
+                            <i class="fa-solid fa-shop"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">E-commerce Website</h5>
+                              <a href="https://ayoubcode-source.github.io/atudio2/" class="btn ">Go Check</a>
+                            </div>
+                          </div>
+                          <div id="project-cards" class="card" >
+                            <i class='fas fa-gamepad'></i>
+                            <div class="card-body">
+                              <h5 class="card-title">Gaming Website</h5>
+                              <a href="https://ayoubcode-source.github.io/GAM/" class="btn ">Go Check</a>
+                            </div>
+                          </div>
+                        </p>
+                      </div>
+                    </div>
+              </div>
+        </div>
+      </div>
+   </div>
+<!--Break line-->
+   <div class="line-container1">
+    </div>
+<!--Break line-->
+    <div class="contactsection">
+      <div>
+        <p id="about-header">Contact</p>
+      <div class="card" >
+        <img src="img/IMG_9348.jpg" >
+        <div class="card-body">
+          <p class="card-text">I am excited to bring my technical skills,
+             creativity, and passion for frontend development to new and
+              challenging projects. My goal is to create seamless and
+               engaging digital experiences that leave a lasting impression
+                on users.
+          </p>
+          <a target="_blank" href="https://www.linkedin.com/in/ayoub-el-hadi-672036286/" class="btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="portfolio.js"></script>
+
+
+
+</body>
+</html>
